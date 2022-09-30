@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/delete_element.dir/main.c.o -o delete_element 
