@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/unimodal_aaray.dir/main.c.o -o unimodal_aaray 
