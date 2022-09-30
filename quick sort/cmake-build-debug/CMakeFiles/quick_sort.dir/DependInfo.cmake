@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/run/media/kareem/Windows/Users/karee/Desktop/coding/C/C algorithms/quick sort/main.c" "CMakeFiles/quick_sort.dir/main.c.o" "gcc" "CMakeFiles/quick_sort.dir/main.c.o.d"
+  "/mnt/01D89477FC6C88A0/Users/karee/Desktop/coding/C/C algorithms/quick sort/main.c" "CMakeFiles/quick_sort.dir/main.c.o" "gcc" "CMakeFiles/quick_sort.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

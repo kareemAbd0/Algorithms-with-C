@@ -1,5 +1,5 @@
 CMakeFiles/quick_sort.dir/main.c.o: \
- /run/media/kareem/Windows/Users/karee/Desktop/coding/C/C\ algorithms/quick\ sort/main.c \
+ /mnt/01D89477FC6C88A0/Users/karee/Desktop/coding/C/C\ algorithms/quick\ sort/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \

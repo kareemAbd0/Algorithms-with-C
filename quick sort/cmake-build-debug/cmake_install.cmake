@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/kareem/Windows/Users/karee/Desktop/coding/C/C algorithms/quick sort
+# Install script for directory: /mnt/01D89477FC6C88A0/Users/karee/Desktop/coding/C/C algorithms/quick sort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/run/media/kareem/Windows/Users/karee/Desktop/coding/C/C algorithms/quick sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/01D89477FC6C88A0/Users/karee/Desktop/coding/C/C algorithms/quick sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
