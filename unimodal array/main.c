@@ -2,26 +2,26 @@
 
 int max_unimodal(int *array,int size,int first,int last)
 {
+    int mid = first+ (int)  ((size / 2.0) + 0.5 -1 );
 
-if(size == 2)
+if((array[mid+1] < array[mid]) &&  (array[mid-1] < array[mid])  )
 {
- if( array[first] >array[last])
- {
-     return array[first];
- } else
- {
-     return array[last];
- }
-} else if(size ==1)
-{
-    return array[first];
-}else
-{
+    return array[mid];
 
-    int max1 =  max_unimodal(array,size/2,first,(int )((size/2.0)+0.5 -1));
-    int  max2 =  max_unimodal(array,size/2,(int )((size/2.0)+0.5),last);
-    int result = (max1>max2)?  max1: max2;
-    return result;
+}
+
+else
+{
+    int max;
+
+     if((array[mid+1] < array[mid]) &&  (array[mid-1] > array[mid]))
+    {
+         max = max_unimodal(array, size / 2, first, (int) ((size / 2.0) + 0.5 - 1));
+    } else {
+          max = max_unimodal(array, size / 2, (int) ((size / 2.0) + 0.5), last);
+     }
+
+    return max;
 
 
 }
